@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <h1>My Simple Shop</h1>
+        <div class="cart-icon">
+            🛒 Cart (<span id="cart-count">0</span>)
+        </div>
+    </header>
+
+    <main class="product-container">
+        <div class="product-card">
+            <img src="product-image.jpg" alt="A cool product" class="product-image">
+            <h2 class="product-name">Cool Product X</h2>
+            <p class="product-price">$49.99</p>
+            <p class="product-description">The coolest product you'll ever need. High quality and absolutely essential for modern living.</p>
+            
+            <button id="add-to-cart-btn" class="add-to-cart-button">
+                Add to Cart
+            </button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
