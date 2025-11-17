@@ -10,23 +10,14 @@
 
     <header class="navbar">
         <h1>My Simple Shop</h1>
-        <div class="cart-icon">
+        <div class="cart-icon" style="cursor: pointer;">
             🛒 Cart (<span id="cart-count">0</span>)
         </div>
     </header>
 
     <div class="container">
-        <main class="product-container">
-            <div class="product-card">
-                <img src="product-image.jpg" alt="A cool product" class="product-image">
-                <h2 class="product-name">Cool Prod     uct X</h2>
-                <p class="product-price">$49.99</p>
-                <p class="product-description">The coolest product you'll ever need. High quality and absolutely essential for modern living.</p>
-
-                <button id="add-to-cart-btn" class="add-to-cart-button" aria-label="Add Cool Product X to cart">
-                    Add to Cart
-                </button>
-            </div>
+        <main class="product-container" id="product-container">
+            <!-- Products will be loaded dynamically -->
         </main>
     </div>
 
